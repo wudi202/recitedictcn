@@ -13,4 +13,4 @@
 
 遗留问题
 =========
-* seagoui.ttf这个字体是似有字体(官方网址)[http://www.ascendercorp.com/font/segoe-ui/]，我现在上传在这里，应当会有版权上的问题，不过像我们这样的屁民，应当没太大的风险，后续我会换成开源字体。
+* seagoui.ttf这个字体是似有字体(官方网址)[http://www.ascendercorp.com/font/segoe-ui/] ，我现在上传在这里，应当会有版权上的问题，不过像我们这样的屁民，应当没太大的风险，后续我会换成开源字体。
