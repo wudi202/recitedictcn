@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/MainDisplayLinearLayout"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+	<TextView android:text="@string/MainDisplayBannerContent"
+		android:id="@+id/MainDisplayBanner" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textSize="18sp"></TextView>
+	<ListView android:id="@+id/MainDisplayList"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></ListView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/showNewWord" android:title="@string/showNewWord"></item>
+	<item android:id="@+id/deleteFamiliarWord" android:title="@string/deleteWord"></item>
+	<item android:id="@+id/incFamiliarity" android:title="@string/incFamiliarity"></item>
+	<item android:id="@+id/decFamiliarity" android:title="@string/decFamiliarity"></item>
+</menu>

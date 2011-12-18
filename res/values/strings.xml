@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">recitedictcn</string>
+	<string name="MainDisplayBannerContent">好好学习，天天向上！</string>
+	<string name="add_newword">增加新单词</string>
+	<string name="cleanDatabase">清空数据库</string>
+	<string name="about">关于本软件</string>
+	<string name="showNewWord">显示单词释义</string>
+	<string name="deleteWord">删除已掌握单词</string>
+	<string name="incFamiliarity">增加单词熟悉度</string>
+	<string name="decFamiliarity">减小单词熟悉度</string>
+</resources>
