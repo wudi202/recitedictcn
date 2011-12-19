@@ -6,7 +6,11 @@
 	android:orientation="vertical">
 	<TextView android:text="@string/MainDisplayBannerContent"
 		android:id="@+id/MainDisplayBanner" android:layout_width="wrap_content"
-		android:layout_height="wrap_content" android:textSize="18sp"></TextView>
+		android:layout_height="wrap_content" android:textSize="25sp"></TextView>
+	<View android:id="@+id/horizonl_sep"
+		  android:background="#98fb98"
+		  android:layout_width="wrap_content"
+		  android:layout_height="2px"></View>
 	<ListView android:id="@+id/MainDisplayList"
 		android:layout_width="wrap_content" android:layout_height="wrap_content"></ListView>
 </LinearLayout>

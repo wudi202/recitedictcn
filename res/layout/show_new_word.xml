@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_width="fill_parent"
-  android:layout_height="fill_parent" android:orientation="vertical">
-<com.fortitude.recitedictcn.MyTextView android:text="单词名" android:id="@+id/showNewWordName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp"></com.fortitude.recitedictcn.MyTextView>
-<com.fortitude.recitedictcn.MyTextView android:text="熟悉度" android:id="@+id/showNewWordFamiliar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp"></com.fortitude.recitedictcn.MyTextView>
-<com.fortitude.recitedictcn.MyTextView android:text="单词内容" android:id="@+id/showNewWordContent" android:layout_width="wrap_content" android:layout_height="match_parent" android:textSize="18sp"></com.fortitude.recitedictcn.MyTextView>
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical">
+  <com.fortitude.recitedictcn.MyTextView 
+	  android:text="单词名" 
+	  android:id="@+id/showNewWordName" android:layout_width="wrap_content" 
+	  android:layout_height="wrap_content" android:textSize="25sp"></com.fortitude.recitedictcn.MyTextView>
+  <com.fortitude.recitedictcn.MyTextView 
+	  android:text="熟悉度" 
+	  android:id="@+id/showNewWordFamiliar" android:layout_width="wrap_content" 
+	  android:layout_height="wrap_content" android:textSize="25sp"></com.fortitude.recitedictcn.MyTextView>
+  <com.fortitude.recitedictcn.MyTextView 
+	  android:text="单词内容" android:id="@+id/showNewWordContent" 
+	  android:layout_width="wrap_content" android:layout_height="match_parent" android:textSize="25sp"
+	  android:maxLines="20" android:scrollbars="vertical"></com.fortitude.recitedictcn.MyTextView>
 </LinearLayout>

@@ -46,6 +46,10 @@ public class NewWord extends Activity {
                     return;
                 }
 
+                /* TODO:
+                   此处代码需要更新为根据UserPreference中db中存储的选项，选择是从本地字典中加载单词，或从网络中加载单词
+                   2011/12/19
+                 */
                 try {
                     /* 测试XML读取 */
                     URL url = new URL("http://dict.cn/ws.php?utf8=true&q=" + word);

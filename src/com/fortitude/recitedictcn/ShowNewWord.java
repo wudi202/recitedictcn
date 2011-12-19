@@ -17,6 +17,7 @@ import android.database.Cursor;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.graphics.Typeface;
+import android.text.method.ScrollingMovementMethod;
 
 import com.fortitude.recitedictcn.DataBase;
 import com.fortitude.recitedictcn.MyTextView;
@@ -41,6 +42,7 @@ public class ShowNewWord extends Activity {
         wordView = (MyTextView)findViewById(R.id.showNewWordName);
         familiarView = (MyTextView)findViewById(R.id.showNewWordFamiliar);
         contentView = (MyTextView)findViewById(R.id.showNewWordContent);
+        contentView.setMovementMethod(ScrollingMovementMethod.getInstance());
 
         db = new DataBase(this);
         db.open();
