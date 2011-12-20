@@ -7,6 +7,19 @@
 	<EditText android:text="" android:id="@+id/WordNameInput"
 		android:layout_width="match_parent" android:layout_height="wrap_content"
 		android:inputType="text"></EditText>
+	<RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <RadioButton android:id="@+id/RadioNet"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="网络词典" />
+      <RadioButton android:id="@+id/RadioLocal"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="本地词典" />
+    </RadioGroup>
 	<TextView android:text="输入熟悉度" android:id="@+id/TextView02"
 		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 	<EditText android:text="1" android:id="@+id/WordFamiliarityInput"
